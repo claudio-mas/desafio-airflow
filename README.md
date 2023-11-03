@@ -1,8 +1,9 @@
+
 # Desafio de Airflow da Indicium
 
 Este desafio é um teste do conhecimento básico sobre Orquestração de Dados em Airflow.
 
-O projeto utiliza o Apache Airflow para criar uma Directed Acyclic Graph (DAG) que realiza a extração de dados de um banco de dados SQLite e grava os resultados em um arquivo TXT.
+O projeto utiliza o Apache Airflow para criar uma Directed Acyclic Graph (DAG) que realiza a extração de dados de um banco de dados SQLite e grava os resultados em arquivos CSV e TXT.
 
 ### Estrutura do Código
 
