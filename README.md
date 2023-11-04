@@ -3,7 +3,7 @@
 
 Este desafio é um teste do conhecimento básico sobre Orquestração de Dados em Airflow.
 
-O projeto utiliza o Apache Airflow para criar uma Directed Acyclic Graph (DAG) que realiza a extração de dados de um banco de dados SQLite e grava os resultados em arquivos CSV e TXT.
+O projeto utiliza o Apache Airflow para criar uma Directed Acyclic Graph (DAG) que realiza a extração de dados de um banco de dados SQLite e grava o resultado em um arquivo TXT.
 
 ### Estrutura do Código
 
@@ -31,8 +31,8 @@ Esta função é responsável por calcular a soma da quantidade de itens em pedi
 A função export_final_answer é responsável por exportar a resposta final, em formato codificado em base64, para um arquivo TXT.
 
 ### Como Usar
-Para usar este projeto, você precisará ter o Apache Airflow instalado e configurado em seu ambiente. Em seguida, você pode adicionar o arquivo desafio_dag.py ao seu diretório de DAGs do Airflow.
+Para usar este projeto, você precisará ter o Apache Airflow instalado e configurado em seu ambiente. Em seguida, você pode copiar a pasta dags ao seu diretório de DAGs do airflow
 
 A DAG e os operadores do Airflow estão configurados para usar as funções definidas.
 
-Se você já tem o Apache Airflow instalado e configurado, e o arquivo desafio_dag.py está no diretório de DAGs do Airflow, você deve ser capaz de ver a DAG no painel do Airflow e executá-la a partir daí.
+Se você já tem o Apache Airflow instalado e configurado, e a pasta dags está no diretório de DAGs do Airflow, você deve ser capaz de ver a DAG no painel do Airflow e executá-la a partir daí.
