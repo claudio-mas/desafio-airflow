@@ -31,8 +31,8 @@ Esta função é responsável por calcular a soma da quantidade de itens em pedi
 A função export_final_answer é responsável por exportar a resposta final, em formato codificado em base64, para um arquivo TXT.
 
 ### Como Usar
-Para usar este projeto, você precisará ter o Apache Airflow instalado e configurado em seu ambiente. Em seguida, você pode copiar a pasta dags ao seu diretório de DAGs do airflow
+Para usar este projeto, você precisará ter o Apache Airflow instalado e configurado em seu ambiente. Em seguida, você pode copiar a pasta dags ao seu diretório de DAGs do Airflow.
 
-A DAG e os operadores do Airflow estão configurados para usar as funções definidas.
+Adicione uma variável no Airflow com a key "my_email" e no campo "value" adicione seu email.
 
-Se você já tem o Apache Airflow instalado e configurado, e a pasta dags está no diretório de DAGs do Airflow, você deve ser capaz de ver a DAG no painel do Airflow e executá-la a partir daí.
+Se você já tem o Apache Airflow instalado e configurado, a pasta dags está no diretório de DAGs do Airflow e a variável foi adicionada, você deve ser capaz de ver a DAG no painel do Airflow e executá-la a partir daí.
